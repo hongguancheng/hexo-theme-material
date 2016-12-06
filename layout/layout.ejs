@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <%- partial('_partial/head') %>
+    <%- partial("_partial/head") %>
 	
 	<% if(page.layout == "gallery") { %>
 		<!-- Single Gallery Page -->
@@ -36,13 +36,14 @@
 					<%- partial('_partial/sidebar') %>
 				<% } %>
 				
-				<% if(theme.uiux.fab == true){ %>
-					<%- partial("_partial/fab")  %>
+				<% if(theme.scheme == "Paradox"){ %>
+					<!-- Footer Top Button -->
+					<%- partial("_partial/footer_top")  %>
 				<% } %>
 				
-				<%- partial('_partial/footer') %>
+				<%- partial("_partial/footer") %>
                 
-				<%- partial('_partial/import_js') %>
+				<%- partial("_partial/import_js") %>
             </main>
         </div>
 		

@@ -1,4 +1,5 @@
 <!-- Import File -->
+<%- js("js/highlight.min") %>
 <%- js("js/js.min") %>
 <%- partial("_partial/nprogress") %>
 
@@ -8,43 +9,35 @@
 
 <%- partial("_partial/footer-option") %>
 
+<!-- Swiftye -->
 <% if( theme.search.use == "swiftype" ){ %>
 	<%- partial("_widget/search-swiftype-js") %>
 <% } %>
 
+<!-- Local Search-->
 <% if( theme.search.use == "local" ){ %>
 	<%- partial("_widget/search-local-js") %>
 
 	<script>
-		var search_path = "<%= config.search.path %>";
-		if (search_path.length == 0) {
-		search_path = "search.xml";
-		}
-		var path = "<%= config.root %>" + search_path;
-		searchFunc(path, 'search', 'local-search-result');
+        var inputArea = document.querySelector("#search");
+        var getSearchFile = function(){
+            var path = "<%= config.search.path %>";
+            searchFunc(path, 'search', 'local-search-result');
+        }
+
+        inputArea.onfocus = function(){ getSearchFile() }
 	</script>
 <% } %>
 
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $(".post-toc-wrap").parent(".mdl-menu__container").css("position", "fixed");
+    });
+</script>
 
-<% if( theme.js_effect.fab_hover_in == true ){ %>
-	<script>
-		$(".fab").mouseenter(function(){
-			if( !$("#prime").hasClass("is-visible") )
-				$("#prime").click();
-		});
-		
-		$(".fabs").mouseleave(function(){
-			if( $("#prime").hasClass("is-visible") )
-				$("#prime").click();
-		});
-	</script>
-<% } %>
-
-<% if( theme.js_effect.fab_hover_out == true ){ %>
-	<script>
-		$(".fabs").mouseleave(function(){
-			if( $("#prime").hasClass("is-visible") )
-				$("#prime").click();
-		});
-	</script>
+<!-- MathJax Load-->
+<% if (page.mathjax){ %>
+    <%- partial('_widget/mathjax') %>
 <% } %>

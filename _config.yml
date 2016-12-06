@@ -33,6 +33,7 @@ uiux:
     theme_color: "#039BE5"
     theme_sub_color: "#00BCD4"
     hyperlink_color: "#039BE5"
+    button_color: "#757575"
     android_chrome_color: "#039BE5"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
@@ -40,9 +41,7 @@ uiux:
 # JS Effect Switches
 js_effect:
     fade: true
-    smoothscroll: true
-    fab_hover_in: false
-    fab_hover_out: true
+    smoothscroll: false
 
 # Reading experience
 # markdown available value:
@@ -50,6 +49,7 @@ js_effect:
 reading:
     markdown: Github
     entry_excerpt: 80
+    code_highlight: solarized-white
 
 # Thumbnail Settings
 thumbnail:
@@ -57,9 +57,16 @@ thumbnail:
     random_amount: 5
 
 # Background Settings
+# bing available parameter:
+#     new | color= | type=
+#         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
+#         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
+    bing: 
+        enable: false
+        parameter: 
 
 # Images Settings
 img:
@@ -112,6 +119,7 @@ pages:
 comment:
     use: duoshuo
     shortname: ccg
+    duoshuo_thread_key: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems
