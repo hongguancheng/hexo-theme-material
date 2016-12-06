@@ -28,11 +28,11 @@ scheme: Paradox
 uiux:
     slogan: "Every flight begins with a fall."
     # slogan: "每一次飞行都始于堕落"
-    theme_color: "#0097A7"
-    theme_sub_color: "#00838F"
-    hyperlink_color: "#00838F"
+    theme_color: "#039BE5"
+    theme_sub_color: "#00BCD4"
+    hyperlink_color: "#039BE5"
     button_color: "#757575"
-    android_chrome_color: "#0097A7"
+    android_chrome_color: "#039BE5"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
     
@@ -47,6 +47,7 @@ js_effect:
 reading:
     markdown: Github
     entry_excerpt: 80
+    code_highlight: solarized-white
 
 # Thumbnail Settings
 thumbnail:
@@ -60,7 +61,7 @@ thumbnail:
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    # bgimg: "/img/bg.png"
+    #bgimg: "/img/bg.png"
     bing: 
         enable: false
         parameter: 
@@ -116,7 +117,7 @@ pages:
 comment:
     use: duoshuo
     shortname: ccg
-    duoshuo_thread_key: title
+    duoshuo_thread_key: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems
