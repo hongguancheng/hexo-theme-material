@@ -1,10 +1,10 @@
 # Material 原质
 
->原之质，物之渊
+[Material Theme](https://material.viosey.com)
 
 >Nature, Source
 
->[About Material Theme](https://material.vss.im)
+>原之质，物之渊
 
 ## Contents 目录
 
@@ -15,7 +15,7 @@
 - [Contributing 贡献](#contributing-贡献)
 - [License 许可证](#license-许可证)
 - [Render 渲染](#render-渲染)
-- [Changelog 开发日志](https://material.vss.im/changelog/)
+- [Changelog 开发日志](https://material.viosey.com/changelog/)
 
 ## General 概括
 
@@ -25,26 +25,23 @@
 [![Hexo](https://img.shields.io/badge/hexo-3.0+-green.svg?style=flat-square)](https://hexo.io)
 [![Build Status](https://img.shields.io/travis/viosey/hexo-theme-material.svg?style=flat-square)](https://travis-ci.org/viosey/hexo-theme-material)
 [![QQ Group](https://img.shields.io/badge/QQ%20%E7%BE%A4-566308505-brightgreen.svg?style=flat-square)](http://jq.qq.com/?_wv=1027&k=40Vdy24)
-[![Gitter](https://img.shields.io/gitter/room/material-theme/hexo.svg?style=flat-square)](https://gitter.im/material-theme/hexo?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 ## Demo 演示
 
-Experience the Material theme `Paradox scheme` in live: [Viosey's Blog](https://blog.viosey.com)
-
-体验 Material主题 `Paradox scheme` : [Viosey's Blog](https://blog.viosey.com)
+[Viosey's Blog](https://blog.viosey.com)
 
 ## Quick start 快速开始
 
-[Install Material](https://material.vss.im/start/#install-material)	
+[Install Material](https://material.viosey.com/en/start/#install-material)
 
-[安装 Material](https://material.vss.im/start/#install-material)
+[安装 Material](https://material.viosey.com/start/#install-material)
 
 
 ## Docs 文档
 
-[Material Theme Docs](https://material.vss.im)
+[Material Theme Docs](https://material.viosey.com/en/)
 
-[Material 主题文档](https://material.vss.im)
+[Material 主题文档](https://material.viosey.com)
 
 >[Docs Markdown Files](https://github.com/viosey/material-theme-docs)
 

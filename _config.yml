@@ -11,9 +11,9 @@ head:
 
 # Jump Links Settings
 url:
-    rss: 
+    rss:
     daily_pic: "#"
-    logo: 
+    logo:
 
 
 # ---------------------------------------------------------------
@@ -35,7 +35,7 @@ uiux:
     android_chrome_color: "#039BE5"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
-    
+
 # JS Effect Switches
 js_effect:
     fade: true
@@ -51,7 +51,7 @@ reading:
 
 # Thumbnail Settings
 thumbnail:
-    purecolor: 
+    purecolor:
     random_amount: 5
 
 # Background Settings
@@ -62,9 +62,9 @@ thumbnail:
 background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
-    bing: 
+    bing:
         enable: false
-        parameter: 
+        parameter:
 
 # Images Settings
 img:
@@ -95,22 +95,35 @@ sns:
     tumblr: 
     github: https://github.com/hongguancheng
 
+# SNS Share Switch
+sns_share:
+  twitter: true
+  googleplus: true
+  weibo: true
+  linkedin: false
+  qq: false
+  telegram: false
+
 # Sidebar User Dropdown
-dropdown: 
-    Email Me: 
+dropdown:
+    Email Me:
         link: "#"
         icon: email
+
+# Sidebar Categories Switch
+sidebar_categories: false
 
 # Pages Menu
 pages:
     #about: "/about"
-    
 
+# Qrcode for redirect at other device
+qrcode: false
 
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
-    
+
 # Comment Systems
 # Available value:
 #     duoshuo | disqus
@@ -126,14 +139,14 @@ comment:
 search:
     use: local
     swiftype_key: 
-        
+    
 # Leancloud Views
 leancloud:
     enable: false
     app_id: #你的app_id
     app_key: #你的app_key
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
-    
+
 # Busuanzi 不蒜子 Views
 busuanzi:
     enable: false
